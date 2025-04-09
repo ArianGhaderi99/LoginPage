@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_/css/Login.css">
+    <title>Login</title>
+</head>
+<body>
+    <main id="mform">
+            <div id="mlog">
+                <form action="" method="post"></form>
+                    <h1>Login</h1>
+                    <input type="email" name="" id="" placeholder="Email">
+                    <input type="password" name="" id="" placeholder="Password">
+                    <a href="#" onclick="ChangePage('forgetpass')">Forget Your Password</a>
+                    <input type="submit" value="Login">
+                    <p>you dont have account?</p>
+                    <a href="#" onclick="ChangePage('signup')">SignUp</a>
+                </form>
+            </div>
+
+            <div id="mforgetpass">
+                <p id="Pphone1">if you forget your password Enter your Phone Number  and enter the code than we send your password</p>
+                <p id="Pphone">Enter Your phoneNumber</p>
+                <input type="tel" name="" id="Pinput">
+                <p id="Pphone">Enter Code</p>
+                <input type="text" name="" id="Pinput">
+                <button id="Pbtn" onclick="ChangePage('login')">Submit</button>
+            </div>
+
+            <div id="mSignup">
+                <form action="">
+                    <h1>SignUp</h1>
+                    <input type="email" name="" id="" placeholder="Email">
+                    <input type="password" name="" id="" placeholder="Password">
+                    <input type="password" name="" id="" placeholder="Password">
+                    <input type="submit" value="SignUp">
+                    <p>you have account</p>
+                    <a href="#" onclick="ChangePage('login')">Login</a>
+                </form>
+            </div>
+    </main>
+
+
+    <script src="_/js/Login.js"></script>
+</body>
+</html>
