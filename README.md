@@ -22,7 +22,7 @@ This project is a simple login page designed to demonstrate front-end developmen
 
 ## 🚀 Getting Started
 
-Simply open the `index.html` file in your browser.
+Simply open the `base.html` file in your browser.
 
 ## 🎯 Purpose
 
